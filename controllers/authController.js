@@ -24,7 +24,7 @@ export const login = (req, res) => {
 };
 
 export const protectedRoute = (req, res) => {
-  res.send(`${req.user.username}, you are authorized`);
+  res.send(`${req.user.username} authorized`);
 };
 
 export const token = (req, res) => {
